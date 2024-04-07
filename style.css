@@ -1,0 +1,193 @@
+/* --------------------start general-------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* overflow: hidden; */
+    height: 3000px;
+    font-family: "Open Sans", sans-serif;
+    
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+
+}
+a{
+    /* text-decoration: none; */
+    all: unset;
+}
+
+
+.container{
+    width: 1260px;
+    margin: auto;
+
+}
+
+
+/* ----------------end general--------------- */
+/* --------------start header---------- */
+header{
+    
+    background-color: rgb(90, 152, 209);
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-img {
+    position: absolute;
+    width: 788.5px;
+    height: 500px;
+    right: 0;
+    bottom: 0;
+}
+header nav{
+    
+    margin: -43px auto;
+
+
+}
+
+nav li span{
+    padding: 4px;
+}
+header ul{
+    font-weight: bold;
+}
+header .row .content1{
+    font-size: xx-large;
+}
+header .row .content1{
+    padding-right: 90px;
+    width: 50%;
+    /* min-height: 1px; */
+    padding-right: 30px;
+}
+.content1 p {
+    padding: 24px 0;
+    color: #686058;
+    line-height: 43px;
+    font-size: 31px;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+ 
+/* ----------------start nav=--------------- */
+.nav2{
+    min-height: 94px;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 44444;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hr{
+    
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(220, 221, 218);
+    position: relative;
+    position: sticky;
+    top: 94px;
+    z-index: 44444;
+
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav2 ul{
+    height: 100%;
+    margin-bottom: -35px;
+
+
+}
+.ul-h2{
+    width: 25%;
+
+}
+.nav2 ul li{
+    font-size: 15px;
+    font-weight: 400;
+    display: block;
+    height: 60px;
+
+
+}
+
+.nav2 ul li:hover {
+   
+    border-bottom: 2px solid #000;
+   
+}
+.nav2 ul .customer{
+    
+    text-align: center;
+}
+.li{
+    width: 7%;
+    margin-right: 20px;
+}
+
+/* --------------------start all section------------ */
+section{
+    margin-top: 95px;
+}
+
+.vision-flex,
+.impact-flex{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    width: 575px;
+    height: 575px;
+    margin-right: 3rem;
+}
+.img2{
+    width: 575px;
+    height: 575px;
+    margin-left: 3rem;
+}
+.impact-flex{
+    flex-direction: row-reverse;
+
+}
+.btnn{
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px;
+}
+.content p{
+    padding: 24px 0;
+    color: #686058;
+    line-height: 34px;
+    font-size: 19px;
+}
+.content .p-better-tomorrow{
+    padding: 2px 0;
+   
+
+}
+
+
+
+
+
+
